@@ -4,4 +4,29 @@
 2) Create the instance
             WebDriver = new ChromeDriver()
 
-3
+3) Go to URL
+driver.get("https://www.google.com");
+
+4) Get the URL
+driver.getCurrentUrl();
+
+5) Get the Title
+driver.getTitle();
+
+6) Go to previous page
+driver.navigate().back();
+
+7) Go to next page
+driver.navigate().forward();
+
+8) Refresh the page
+driver.navigate().refresh();
+
+9) Close the current tab in the session
+driver.close();
+
+10) Close the browser in the session (this doesn't close the pages from the previous sessions!)
+driver.quit();
+
+Bonus#) Maximize the window
+driver.manage().window().maximize();

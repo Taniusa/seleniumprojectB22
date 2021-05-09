@@ -26,7 +26,7 @@ public class basics {
         Thread.sleep(3000);
 
         page.navigate().refresh();
-        page.navigate().to("https:/www.sporx.con");
+        page.navigate().to("https://www.sporx.com");
 
         String newtab = Keys.chord(Keys.CONTROL,"t");
 
