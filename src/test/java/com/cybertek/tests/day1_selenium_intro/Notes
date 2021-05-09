@@ -1,0 +1,7 @@
+1) Setup the driver
+            WebDriverManager.chromedriver().setup();
+
+2) Create the instance
+            WebDriver = new ChromeDriver()
+
+3
